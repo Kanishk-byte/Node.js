@@ -29,12 +29,6 @@ const productDesc = (productDesc) => {
   }, 2000);
 };
 
-function getBurger(callback){
-  setTimeout(() => {
-    console.log("Burger is ready")
-  }, 2000);
-}
-
 console.log("Order is now going to take place");
 placeorder(() => {
   console.log("Pass to Production");
