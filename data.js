@@ -19,7 +19,7 @@ const printID = (productName) => {
 const productName = (productDesc) => {
   setTimeout(() => {
     console.log("Recharge Krna Hai");
-    startProduction();
+    productDesc();
   }, 2000);
 };
 const productDesc = (productDesc) => {
